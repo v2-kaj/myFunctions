@@ -14,20 +14,28 @@ december =cal(4000,2,7,89000,0,1117452.19)
 
 #print(july+august+september+october+november+december) #for Florence
 #print(2500+2000+2000+5000+4000+4000)
-cd ..
 
 #For TK
-Tjuly = cal(2500,2,12,109000,0,1210961.75)
+
+Tjuly = (cal(2500,2,12,109000,0,1210961.75))
+print(Tjuly)
 Taugust =cal(2000,2,11,109000,0,1210961.75)
+print(Taugust)
 Tseptember =cal(2500,2,10,109000,0,1210961.75)
+print(Tseptember)
 Toctober =cal(4000,2,9,109000,0,1210961.75)
+print(Toctober)
 Tnovember =cal(4000,2,8,109000,0,1210961.75)
+print(Tnovember)
 Tdecember =cal(5000,2,7,109000,0,1210961.75)
+print(Tdecember)
 Tjanuary =cal(3000,2,6,109000,0,1210961.75)
+print(Tjanuary)
 
+#print(2500+2000+2500+4000+4000+5000+3000)
 
-print(Tjuly+Taugust+Tseptember+Toctober+Tnovember+Tdecember+Tjanuary) 
-print(2500+2000+2500+4000+4000+5000+3000)
+#print(Tjuly+Taugust+Tseptember+Toctober+Tnovember+Tdecember+Tjanuary) 
+
 
 
 
