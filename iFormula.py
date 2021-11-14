@@ -32,7 +32,7 @@ print(Tjanuary)'''
 #print(2500+2000+2500+4000+4000+5000+3000)
 
 #print(Tjuly+Taugust+Tseptember+Toctober+Tnovember+Tdecember+Tjanuary)
-totalContribution = 994522.75
+'''totalContribution = 994522.75
 Cjuly = cal(2500,2,14,198000,0,totalContribution)
 
 Caugust =cal(2000,2,13,198000,0,totalContribution)
@@ -71,4 +71,45 @@ CmoneyBack = money-Cloan-Cexpenses
 print("Total Contributions ", CtotalContributions)
 print("Total Loans ", Cloan)
 print("Total Expenses Share ", Cexpenses)
-print("Total money back ", CmoneyBack)
+print("Total money back ", CmoneyBack)'''
+
+totalContribution = 994522.75
+pjuly = cal(2500,2,15,198000,0,totalContribution)
+
+paugust =cal(2000,2,14,198000,0,totalContribution)
+
+pseptember =cal(2500,2,13,198000,0,totalContribution)
+
+poctober =cal(4000,2,12,198000,0,totalContribution)
+
+pnovember =cal(4000,2,11,198000,0,totalContribution)
+
+pdecember =cal(5000,2,10,198000,0,totalContribution)
+
+pjanuary =cal(4000,2,9,198000,0,totalContribution)
+
+pfebruary =cal(29000,2,8,198000,0,totalContribution)
+
+pmarch =cal(17500,2,7,198000,0,totalContribution)
+
+papril =cal(4000,2,6,198000,0,totalContribution)
+
+pmay =cal(0,2,5,198000,0,totalContribution)
+
+pjune=cal(0,2,4,198000,0,totalContribution)
+
+pjuly2 =cal(0,2,3,198000,0,totalContribution)
+
+paugust2 =cal(0,2,2,198000,0,totalContribution)
+
+ptotalContributions = 2500+2000+2500+4000+4000+5000+4000+29000+17500+4000
+money = pjuly+paugust+pseptember+poctober+pnovember+pdecember+pjanuary+pfebruary+pmarch+papril+ pmay + pjune + pjuly2 + paugust2
+
+ploan = 0
+expenses = 43990.44
+pexpenses = expenses/10
+pmoneyBack = money-ploan-pexpenses
+print("Total Contributions ", ptotalContributions)
+print("Total Loans ", ploan)
+print("Total Expenses Share ", pexpenses)
+print("Total money back ", pmoneyBack)
