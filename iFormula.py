@@ -100,9 +100,9 @@ pjune=cal(0,2,4,198000,0,totalContribution)
 
 pjuly2 =cal(0,2,3,198000,0,totalContribution)
 
-paugust2 =cal(0,2,2,198000,0,totalContribution)
+paugust2 =cal(20000,2,2,198000,0,totalContribution)
 
-ptotalContributions = 2500+2000+2500+4000+4000+5000+4000+29000+17500+4000
+ptotalContributions = 2500+2000+2500+4000+4000+5000+4000+29000+17500+4000+20000
 money = pjuly+paugust+pseptember+poctober+pnovember+pdecember+pjanuary+pfebruary+pmarch+papril+ pmay + pjune + pjuly2 + paugust2
 
 ploan = 0
